@@ -1,0 +1,1 @@
+export const SHOPIFY_URL = "https://celes-app.myshopify.com/admin/api/2023-04/products.json";

@@ -1,13 +1,13 @@
 import React, { ReactElement } from "react";
 import { Routes, Route } from 'react-router-dom';
 
-import DashboardContainer from "./modules/Dashboard/containers/DashboardContainer";
+import Dashboard from "./pages/Dashboard";
 
 const App = (): ReactElement => {
   return (
     <main className="content">
       <Routes>
-        <Route path="/" element={<DashboardContainer />} />
+        <Route path="/" element={<Dashboard />} />
       </Routes>
     </main>
   );
