@@ -1,11 +1,11 @@
-import React, { ReactElement, useState, useMemo } from "react";
+import React, { ReactElement } from "react";
 
 import Header from "../../components/Header";
 import Body from "../../components/Body";
 import { useFetchProducts } from "../../hooks/useFetchProducts";
 
 const DashboardContainer = ():ReactElement => {
-  const { products, isFetchProductsLoading} = useFetchProducts();
+  const { products} = useFetchProducts();
 
   return (
     <>
