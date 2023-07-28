@@ -11,6 +11,7 @@ export const PRODUCTS_MOCK = {
           title: "Default Title",
           price: "8.50",
           sku: "TOY136",
+          inventory_quantity: 30,
         }
       ],
     },
@@ -25,6 +26,7 @@ export const PRODUCTS_MOCK = {
           title: "Default Title",
           price: "13.99",
           sku: "TOY430",
+          inventory_quantity: 14,
         }
       ],
     },
@@ -39,27 +41,7 @@ export const PRODUCTS_MOCK = {
           title: "Default Title",
           price: "43.99",
           sku: "TOY139",
-          position: 1,
-          inventory_policy: "deny",
-          compare_at_price: "null",
-          fulfillment_service: "manual",
-          inventory_management: "shopify",
-          option1: "Default Title",
-          option2: "null",
-          option3: "null",
-          created_at: "2023-02-21T18:20:04-05:00",
-          updated_at: "2023-02-24T10:05:45-05:00",
-          taxable: true,
-          barcode: "null",
-          grams: 0,
-          image_id: "null",
-          weight: 0,
-          weight_unit: "kg",
-          inventory_item_id: 46570184966452,
-          inventory_quantity: -2,
-          old_inventory_quantity: -2,
-          requires_shipping: true,
-          admin_graphql_api_id: "gid://shopify/ProductVariant/44520729542964"
+          inventory_quantity: 18,
         }
       ],
     },
@@ -74,6 +56,7 @@ export const PRODUCTS_MOCK = {
           title: "Default Title",
           price: "14.99",
           sku: "TOY431",
+          inventory_quantity: 22,
         }
       ],
     },
@@ -88,6 +71,7 @@ export const PRODUCTS_MOCK = {
           title: "AGUA BRISA SIN GAS 280 ML 24 UDS",
           price: "34.30",
           sku: "00069016",
+          inventory_quantity: 26,
         }
       ],
     }
