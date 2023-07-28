@@ -1,0 +1,17 @@
+.MuiFormControl-root {
+  margin: 4px 0 16px !important;
+  width: 40%;
+  min-width: 250px !important;
+  max-width: 500px;
+  .MuiFormLabel-root {
+    top: -10px !important;
+    font-size: 0.875rem;
+  }
+  .MuiInputBase-root {
+    background-color: white;
+    height: 32px;
+  }
+  .MuiInputAdornment-root {
+    margin-right: -4px;
+  }
+}

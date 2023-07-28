@@ -1,3 +1,5 @@
+import { Dispatch, SetStateAction } from "react";
+
 export interface IVariant {
   id: number;
   product_id: number;
@@ -24,4 +26,10 @@ export interface IProduct {
   name: string;
   inventoryQuantity: number;
   recommendedReOrderedLevel: number | null;
+}
+
+export interface IProductsFiltered {
+  search: string;
+  setSearch: Dispatch<SetStateAction<string>>;
+  dataFiltered: IProduct[];
 }

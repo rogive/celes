@@ -1,8 +1,7 @@
 .body {
   margin: 20px auto;
   max-width: 97vw;
-    .MuiTableRow-head {
-      text-transform: uppercase;
-      background-color: rgb(219, 219, 248);
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
