@@ -3,7 +3,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: #ffffff;
+  background-color: #210797;
+  box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
   &__message {
     text-align: center;
+    text-transform: capitalize;
   }
 }

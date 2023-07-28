@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="header">
       <h2 className="header__message">
-        Dashboard
+        My Dashboard
       </h2>
     </header>
   );
